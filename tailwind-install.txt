@@ -1,2 +1,27 @@
+---------------------
+
+installation:
+
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
+
+---------------------
+
+add this to: tailwind.config.js
+
+module.exports = {
+  content: [
+    "./src/**/*.{html,ts}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+---------------------
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
