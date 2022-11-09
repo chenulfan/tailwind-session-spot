@@ -20,7 +20,7 @@ module.exports = {
 }
 
 ---------------------
-
+add this to: styles.sccs
 
 @tailwind base;
 @tailwind components;
