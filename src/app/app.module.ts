@@ -3,13 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ShapesComponent } from '../components/shapes/shapes.component';
+import { ShapesComponent } from 'src/components/shapes/shapes.component';
+import { HeaderComponent } from 'src/components/shared/header/header.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
-      ShapesComponent
-   ],
+    ShapesComponent,
+    HeaderComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule
