@@ -1,0 +1,7 @@
+git checkout installation
+git checkout tailwind-playground
+git checkout shared-comoponent
+git checkout config-tailwind
+git checkout apply
+git checkout create-card
+
