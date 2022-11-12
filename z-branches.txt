@@ -3,4 +3,5 @@ git checkout tailwind-playground
 git checkout shared-comoponent
 git checkout config-tailwind
 git checkout apply
+git checkout jit
 git checkout create-card
